@@ -10,9 +10,8 @@ class RandomWalker(Agent):
 
     def __init__(self,id,position,model,moore=True):
         """
-        @params:
-        - moore: if True, may move in all 8 directions
-                 otherwise, only up, down, left or right
+        @params
+            moore: if True, may move in all 8 directions otherwise, only up, down, left or right
         """
         super().__init__(id,model)
         self.position = position
